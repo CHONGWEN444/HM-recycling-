@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H&M Clothing Recycling Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        #map-container {
+            height: 300px;
+            background-color: #eaeaea;
+        }
+        form {
+            margin-top: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>H&M Clothing Recycling Program</h1>
+        <nav>
+            <ul>
+                <li><a href="#details">Program Details</a></li>
+                <li><a href="#map">Recycling Locations</a></li>
+                <li><a href="#submit">Submit Clothing</a></li>
+                <li><a href="#vouchers">Earn Vouchers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="details">
+        <h2>About Our Recycling Program</h2>
+        <p>Bring your old clothing to any H&M store and get a discount voucher in return!</p>
+    </section>
+
+    <section id="map">
+        <h2>Find Nearby Recycling Locations</h2>
+        <div id="map-container">
+            <!-- Map content -->
+        </div>
+    </section>
+
+    <section id="submit">
+        <h2>Submit Your Clothing</h2>
+        <form>
+            <label for="clothing-type">Select Type:</label>
+            <select id="clothing-type" name="clothing-type">
+                <option value="shirts">Shirts</option>
+                <option value="pants">Pants</option>
+                <option value="jackets">Jackets</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit for Recycling">
+        </form>
+    </section>
+
+    <section id="vouchers">
+        <h2>Earn Vouchers</h2>
+        <p>For each bag of clothing recycled, you will receive a voucher worth 15% off your next purchase!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 H&M Recycling Program. All rights reserved.</p>
+    </footer>
+</body>
+</html>
